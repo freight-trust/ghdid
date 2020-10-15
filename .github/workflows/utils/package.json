@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "@github-did/lib": "~/github-did/packages/lib",
+    "github-did-library": "0.0.5",
     "jsonld-signatures": "^6.0.0"
   }
 }
