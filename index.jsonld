@@ -1,0 +1,50 @@
+{
+  "@context": "https://w3id.org/did/v1",
+  "id": "did:github:freight-trust",
+  "publicKey": [
+    {
+      "type": "OpenPgpVerificationKey2019",
+      "id": "did:github:freight-trust#ineRBET1ovniqPfeYXHzVPZbRKwwQGtnhzjek3LXY60",
+      "controller": "did:github:freight-trust",
+      "publicKeyPem": "-----BEGIN PGP PUBLIC KEY BLOCK-----\r\nVersion: OpenPGP.js v4.10.8\r\nComment: https://openpgpjs.org\r\n\r\nxk8EX4fuJxMFK4EEAAoCAwSzNUeIIzyMJF1hJh3lDpGTUtX+m2vv82sk8ZlJ\r\noYT/T05QaBUF8+s0iKXeJYFlwt650+a2HwJw6abyGvZfs3Z4zRdhbm9uIDxh\r\nbm9uQGV4YW1wbGUuY29tPsKPBBATCAAgBQJfh+4nBgsJBwgDAgQVCAoCBBYC\r\nAQACGQECGwMCHgEAIQkQjws/Zqk5TNUWIQQmxpilzigUO6p3HLKPCz9mqTlM\r\n1cPeAP4nGI3jM+OWpN/VSMMIaEOkaZkQHYNOTIqyQUPeOec0IwEAh15sF+tA\r\nXR+2CJNM674w7QdYz4twfzJRa+p6teTjQHvOUwRfh+4nEgUrgQQACgIDBPuG\r\n2dHEuHwVukZ0Po2jG0NQLI1EaoXut++uEOkQFM5/gJOoELIFOnq0JpnWUjUO\r\nv77rJl8ATPWl4a9qlK8Ra8YDAQgHwngEGBMIAAkFAl+H7icCGwwAIQkQjws/\r\nZqk5TNUWIQQmxpilzigUO6p3HLKPCz9mqTlM1bbyAQD9CzL22j9hR0X1zXt1\r\nhAKfkhptTXk7dBtqAFi1II/E3AD8DGLMfta3ngqu7wRWLVlLMzmRSxXCJh6j\r\nwUDXd77y+VU=\r\n=HKNk\r\n-----END PGP PUBLIC KEY BLOCK-----\r\n"
+    },
+    {
+      "type": "OpenPgpVerificationKey2019",
+      "id": "did:github:freight-trust#69c0RMtAHcJoFwuKd-VGNH7iA4sDBNzGWaYAyR7xhaU",
+      "controller": "did:github:freight-trust",
+      "publicKeyPem": "-----BEGIN PGP PUBLIC KEY BLOCK-----\r\nVersion: OpenPGP.js v4.10.8\r\nComment: https://openpgpjs.org\r\n\r\nxk8EX4fuJxMFK4EEAAoCAwSo7XSztBmCvmmu9p2vjK/OoWjHEVQ6RfDc06Ad\r\nIjuN8OPDXu2eh+Vje7YDPXX/NoUQROmI+2J0MJQp62/fqfgOzRdhbm9uIDxh\r\nbm9uQGV4YW1wbGUuY29tPsKPBBATCAAgBQJfh+4nBgsJBwgDAgQVCAoCBBYC\r\nAQACGQECGwMCHgEAIQkQI44eVniZ4hEWIQRVlptPIl7fHJ2V5nQjjh5WeJni\r\nEcSXAP0cLR05S87p7xjeQcYjnHFp6otyDfFcbbntXyZAfWrSPgD9Hs+jc0OS\r\nx7d4k0hJsVpMsQIZ0PM8sozwbjWIC1U7UHvOUwRfh+4nEgUrgQQACgIDBBYN\r\nLMa+XiLwt2NzUVgzfeiAhXvS/yUz3RNaB/VuQAyQpJ7sT5aRvQVjPQqaLTnN\r\n/2CdjbT9t4xjqGm1nkJD5usDAQgHwncEGBMIAAkFAl+H7icCGwwAIQkQI44e\r\nVniZ4hEWIQRVlptPIl7fHJ2V5nQjjh5WeJniEQLvAQDAOrrRHwGlVFNuJT0p\r\nLRsZf/Tn7btSWdQG92PMjpuz+wD4sQPsrD6eaYH9n0rpkzoFPeensWO6qxtl\r\nDXyoXfrjyg==\r\n=Ukbo\r\n-----END PGP PUBLIC KEY BLOCK-----\r\n"
+    },
+    {
+      "type": "Ed25519VerificationKey2018",
+      "id": "did:github:freight-trust#iPbfdJi9_I_4ziVXvWkrTOMALm31ID4c8gDwZEMcH84",
+      "controller": "did:github:freight-trust",
+      "publicKeyBase58": "GJMxkfhz7pod1b7dR2P2uytiUGDapMWriXKoJe8HhTwp"
+    }
+  ],
+  "authentication": [],
+  "service": [],
+  "capabilityDelegation": [
+    "did:github:freight-trust#iPbfdJi9_I_4ziVXvWkrTOMALm31ID4c8gDwZEMcH84"
+  ],
+  "capabilityInvocation": [
+    "did:github:freight-trust#iPbfdJi9_I_4ziVXvWkrTOMALm31ID4c8gDwZEMcH84"
+  ],
+  "assertionMethod": [
+    "did:github:freight-trust#iPbfdJi9_I_4ziVXvWkrTOMALm31ID4c8gDwZEMcH84"
+  ],
+  "keyAgreement": [
+    {
+      "id": "did:github:freight-trust#z6LSk6meNCzeSLjLoh9f8zA8Hq7yd7qhtwGqB2krHwrJc2p9",
+      "type": "X25519KeyAgreementKey2019",
+      "controller": "did:github:freight-trust",
+      "publicKeyBase58": "9RbUquBnLt1biJmtcLeAyEuVmyJbCL6gJ43AoVCmtf3P"
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2020-10-15T06:37:27Z",
+    "verificationMethod": "did:github:freight-trust#iPbfdJi9_I_4ziVXvWkrTOMALm31ID4c8gDwZEMcH84",
+    "proofPurpose": "assertionMethod",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..4D7kYdcsIbtM3JoYnfkzSFGHu-AXRCTyfbyBv7Vq8kgwC-RVKLqrqNwQsuhNBwe9EbSnbuvQGuIVKStZmnvwAg"
+  }
+}
