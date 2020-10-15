@@ -1,5 +1,5 @@
-const ghdid = require('@github-did/lib');
-const fs = require('fs')
+const ghdid = require('github-did-library');
+const fs = require('fs') 
 const jsigs = require("jsonld-signatures");
 const { Ed25519Signature2018 } = jsigs.suites;
 const { AssertionProofPurpose } = jsigs.purposes;
