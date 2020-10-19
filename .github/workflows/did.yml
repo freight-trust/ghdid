@@ -28,6 +28,7 @@ jobs:
         env:
           DID_WALLET: ${{ secrets.DID_WALLET }}
           DID_WALLET_PASSWORD: ${{ secrets.DID_WALLET_PASSWORD }}
+          GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
       - name: Commit new changes
         run: |
           if ! git diff --no-ext-diff --quiet --exit-code; then
